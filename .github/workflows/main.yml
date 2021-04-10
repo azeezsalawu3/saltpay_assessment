@@ -8,10 +8,8 @@ on:
     branches: [ master ]
 
   workflow_dispatch:
-    Inputs:
-    logLevel:
-      default: 'Warning'
-      required: true
+    inputs:
+    tag: 'QA - Regression'
 
 jobs:
   build:
