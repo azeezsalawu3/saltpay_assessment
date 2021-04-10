@@ -8,8 +8,6 @@ on:
     branches: [ master ]
 
   workflow_dispatch:
-    inputs:
-      tag: 'Test - Regression'
 
 jobs:
   build:
