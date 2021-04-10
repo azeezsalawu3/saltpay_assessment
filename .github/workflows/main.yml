@@ -9,7 +9,7 @@ on:
 
   workflow_dispatch:
     inputs:
-      tag: 'QA - Regression'
+      tag: 'Test - Regression'
 
 jobs:
   build:
