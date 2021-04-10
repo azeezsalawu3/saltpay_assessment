@@ -26,3 +26,9 @@ jobs:
 
       - name: Run Test
         run: mvn test --file pom.xml
+        
+      - name: Publish Report
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with: 
+          folder: ./Reports/cucumber-html-reports
+          branch: gh-pages
